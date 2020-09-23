@@ -1,0 +1,20 @@
+{
+  "name": "teltest",
+  "version": "1.0.0",
+  "description": "periodical telnet test runner",
+  "main": "index.js",
+  "scripts": {
+    "build": "pkg ./out/cli.js -t node14-win --output ./bin/teltest.exe"
+  },
+  "author": "RichardB",
+  "license": "MIT",
+  "dependencies": {
+    "log-update": "^4.0.0",
+    "telnet-client": "^1.4.6",
+    "yargs": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "@types/yargs": "^15.0.5"
+  }
+}
